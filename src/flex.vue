@@ -26,7 +26,7 @@ const props = defineProps({
     default: 'hidden'
   },
   display: {
-    type: String as PropType<'flex' | 'inline-flex'>,
+    type: String as PropType<'flex' | 'inline-flex' | 'block'>,
     default: 'flex'
   },
   direction: {
@@ -51,7 +51,7 @@ const props = defineProps({
   },
   flex: {
     type: String,
-    default: '1'
+    default: 'none'
   },
   alignItems: {
     type: String as PropType<'normal' | 'stretch' | 'center' | 'start' | 'end' | 'flex-start' | 'flex-end' | 'self-start' | 'self-end' | 'baseline' | 'first baseline' | 'last baseline' | 'safe center' | 'unsafe center' | AlignItemsGlobalValue>,

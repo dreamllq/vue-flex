@@ -3,13 +3,17 @@
     <p>base</p>
     <div style='width: 500px; height: 50px; border: 1px solid;'>
       <flex fit>
-        <flex align-items='center' style='border: 1px solid;'>
+        <flex align-items='center' style='border: 1px solid;' flex='1'>
           1
         </flex>
-        <flex justify-content='center' style='border: 1px solid;'>
+        <flex justify-content='center' style='border: 1px solid;' flex='1'>
           2
         </flex>
-        <flex justify-content='center' align-items='center' style='border: 1px solid;'>
+        <flex
+          justify-content='center'
+          align-items='center'
+          style='border: 1px solid;'
+          flex='1'>
           3
         </flex>
       </flex>
@@ -17,13 +21,17 @@
     <p>direction='column'</p>
     <div style='width: 50px; height: 500px; border: 1px solid;'>
       <flex fit direction='column'>
-        <flex align-items='center' style='border: 1px solid;'>
+        <flex align-items='center' style='border: 1px solid;' flex='1'>
           1
         </flex>
-        <flex justify-content='center' style='border: 1px solid;'>
+        <flex justify-content='center' style='border: 1px solid;' flex='1'>
           2
         </flex>
-        <flex justify-content='center' align-items='center' style='border: 1px solid;'>
+        <flex
+          justify-content='center'
+          align-items='center'
+          style='border: 1px solid;'
+          flex='1'>
           3
         </flex>
       </flex>
