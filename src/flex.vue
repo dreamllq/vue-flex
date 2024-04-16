@@ -51,7 +51,7 @@ const props = defineProps({
   },
   flex: {
     type: String,
-    default: 'none'
+    default: undefined
   },
   alignItems: {
     type: String as PropType<'normal' | 'stretch' | 'center' | 'start' | 'end' | 'flex-start' | 'flex-end' | 'self-start' | 'self-end' | 'baseline' | 'first baseline' | 'last baseline' | 'safe center' | 'unsafe center' | AlignItemsGlobalValue>,
